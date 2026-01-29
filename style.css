@@ -49,12 +49,14 @@ button{
 }
 .play i,
 .pause i,
+.set i,
 .sound-on i {
   color: var(--primary-color);
+
+  font-size: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+  
 }
-button i{
-  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
-}
+
 #controls{
   background-color: var(--bg-primary-light);
   display: flex;
@@ -63,8 +65,9 @@ button i{
   gap: 3.2rem;
   border-radius: 9999px;
 
-  width: clamp(10rem, 10rem + 30vw, 15rem);
-  height: clamp(8rem, 5rem, + 10vw, 30rem);
+  width: clamp(10rem, 10rem + 30vw, 22rem);
+  height: 10.4rem;
+  
 
 }
 footer{
