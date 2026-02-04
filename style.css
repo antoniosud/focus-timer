@@ -50,7 +50,9 @@ button{
 .play i,
 .pause i,
 .set i,
-.sound-on i {
+.sound-on i,
+.sound-off i,
+.stop i{
   color: var(--primary-color);
 
   font-size: clamp(3.2rem, 2rem + 12vw, 6.4rem);
