@@ -35,11 +35,12 @@ return newMinutes;
    
     }
 
-    return
-    reset,
-    play,
-    pause,
-    getMinutes
+    return{
+      reset,
+      play,
+      pause,
+      getMinutes
+    }
 
 }
 
