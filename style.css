@@ -17,12 +17,13 @@
   font-size: 62.5%;
 }
 body{
-  display: grid;
-  
-  background-color: var(--bg-color);
+  display: grid;  
+  background-image: url(img/bacground.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: var(--text-color);
   font-family: "Roboto", sans-serif;
-
   min-height: 100vh;
 
 }
